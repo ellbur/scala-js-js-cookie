@@ -1,4 +1,4 @@
-lazy val root = project.in(file("."))
+lazy val jscookie = project.in(file("."))
   .enablePlugins(ScalaJSPlugin)
 
 name := "ScalaJS Facade for js-cookie"
